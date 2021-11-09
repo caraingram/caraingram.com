@@ -1,13 +1,19 @@
 import React from 'react'
-import Picture from './websitepic.png'
+import Picture from '../public/websitepic.png'
+
 function Homepage() {
     return (
         <div>
-            <div>
-                <img src={Picture.default} height = {100} width = {200} />
-            </div>
-            <div id="rectangle">
-                <h1>Cara Ingram</h1>
+          
+            <div class="flex-container">
+                <div class="flex-child">
+                    <img src={'/websitepic.png'}/>
+                </div>
+                <div class="flex-child2">
+                    <h1>Hello, I'm Cara</h1>
+                    <h2>About</h2>
+                </div>
+
             </div>
         </div>
 
